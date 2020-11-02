@@ -12,14 +12,16 @@
             @if (Route::has('register'))
             <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 underline">Register</a>
             @endif
-            @endif
+    @endif
     </div>
     @endif
     <div class="center content">
         <div class="title">
             <img src="/img/pizza-house.png">
             <h1>The North's Best Pizza</h1>
+            <a href="/pizzas/create">Order now!</a>
         </div>
+        <p><strong>{{session('msg')}}</strong></p>
     </div>
 </div>
 @endsection

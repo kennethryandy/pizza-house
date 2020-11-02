@@ -23,3 +23,19 @@ footer {
   color: #5e2195;
 }
 
+.pizzas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pizzas .list {
+  border-right: 2px solid;
+  padding: 20px;
+}
+
+.pizzas .list ul li {
+  font-size: 24px;
+  list-style-type: none;
+}
+
